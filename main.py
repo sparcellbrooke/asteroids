@@ -18,10 +18,8 @@ def main():
 
     while True:
         log_state()
-
         for event in pygame.event.get():
             pass
-
         screen.fill("black")
         player.update(dt)
         player.draw(screen)
